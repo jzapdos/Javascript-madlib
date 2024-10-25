@@ -15,7 +15,7 @@ html {
   div.container.top {
     display: flex;
     justify-content: center;
-  
+    font-family:"Eater", serif;
     h1 {
       display: inline-block;
       background: linear-gradient(to right, orange, purple);
@@ -28,5 +28,6 @@ html {
   
     p {
       color: #fff;
+      text-align:center;
     }
   }
