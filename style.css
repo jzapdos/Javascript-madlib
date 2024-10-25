@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: url(images/1920-x-1080-halloween-ijqoqffl4miupz6c.jpg) no-repeat;
+  background: url('images/1920-x-1080-halloween-ijqoqffl4miupz6c.jpg') center/cover no-repeat !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
