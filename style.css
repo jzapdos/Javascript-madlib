@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), radial-gradient(#c764a9, orange);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  div.container.top {
+    display: flex;
+    justify-content: center;
+  
+    h1 {
+      display: inline-block;
+      background: linear-gradient(to right, orange, purple);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  div.container.text {
+  
+    p {
+      color: #fff;
+    }
+  }
